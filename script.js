@@ -8,6 +8,7 @@ function getComputerChoice() {
     // console.log("computer")
 
 }
+
 function checkWinner(humanChoice, computerChoice) {
     if (humanChoice == computerChoice) {
         return "Tie";
@@ -23,7 +24,7 @@ function checkWinner(humanChoice, computerChoice) {
         return "Computer"
     }
 
-}
+} 
 
 function playRound(humanChoice, computerChoice) {
     const result = checkWinner(humanChoice, computerChoice);
@@ -54,6 +55,7 @@ function getHumanChoice() {
     }
     return choice;
 }
+
 // const humanChoice = "Rock"
 // const computerChoice = getComputerChoice();
 // console.log(playRound(humanChoice, computerChoice));
