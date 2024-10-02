@@ -64,20 +64,20 @@ function playGame() {
     let scoreHuman = 0
     let scoreComputer = 0
     console.log("Hello!")
-    for (let i = 0; i < 5; i++) {
-        const humanChoice = getHumanChoice();
-        const computerChoice = getComputerChoice();
-        console.log(playRound(humanChoice, computerChoice));
+    // for (let i = 0; i < 5; i++) {
+    //     const humanChoice = getHumanChoice();
+    //     const computerChoice = getComputerChoice();
+    //     console.log(playRound(humanChoice, computerChoice));
 
-        let winner = checkWinner(humanChoice, computerChoice);
-        if (winner === "Human") {
-            scoreHuman++
-        }
-        else if (winner === "Computer") {
-            scoreComputer++;
-        }
-    }
-
+    //     let winner = checkWinner(humanChoice, computerChoice);
+    //     if (winner === "Human") {
+    //         scoreHuman++
+    //     }
+    //     else if (winner === "Computer") {
+    //         scoreComputer++;
+    //     }
+    // }
+    
     if (scoreHuman > scoreComputer) {
         console.log("Human wins!");
     }
